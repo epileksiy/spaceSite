@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "npm run build && vite preview",
+    "preview": "vite preview --port 8080"
   },
   "devDependencies": {
     "vite": "^2.3.0"
